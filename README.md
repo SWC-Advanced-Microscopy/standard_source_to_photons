@@ -59,7 +59,15 @@ Here you will find some Python code and notebooks that show how to convert data 
 You will also find a MATLAB implementation of this pipeline. 
 Many multi-photon microscopes run the MATLAB-based [ScanImage](https://www.mbfbioscience.com/products/scanimage/) software and it is helpful to be able to make the conversions at the rig within MATLAB without requring a Python install.
 You may look through the MATLAB and Python notebooks to examine the results. 
-If you wish to re-run the notebooks or play with the data, the required TIFF files can be found on Gin at [raacampbell/NV_photon_calibration_250122/](https://gin.g-node.org/raacampbell/NV_photon_calibration_250122/).
+If you wish to re-run the notebooks or play with the data, the required TIFF files can be found on Gin at [raacampbell/NV_photon_calibration_250122](https://gin.g-node.org/raacampbell/NV_photon_calibration_250122/).
+
+## Where to start
+The Jupyter notebook `python/Get_Quantal_Vals.ipynb` contains a description of the data and explains the steps for converting the standard source image from raw values to photons. 
+
+Unlike Jupyter notebooks, MATLAB notebooks are binary so one is not included in the repo. 
+The `matlab` folder contains a set of functions and a README for running them. 
+
+
 
 ## Citations
 This work is based on the [original minimal Python code](https://github.com/datajoint/anscombe-numcodecs) from Dimitri Yatsenko. 
