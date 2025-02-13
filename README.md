@@ -5,8 +5,8 @@ For our purposes we will be using a multi-photon microscope, but this is not cri
 Conversion of the detected standard source signal into photons allows direct comparison of the collection paths of different microscopes. 
 
 ## TLWR
-See [the main Jupyter notebook](./python/Get_Quantal_Vals.ipynb).
-
+* See [the main Jupyter notebook](./python/Get_Quantal_Vals.ipynb) for how to perform the calibration in details.
+* See [matlab/README.md] for a demo that this also works in MATLAB.
 
 ## How does it work?
 The idea behind this approach was described by Dimitri Yatsenko in the preprint "[Standardised Measurements for Monitoring and Comparing Multiphoton Microscope Systems](https://www.biorxiv.org/content/10.1101/2024.01.23.576417v1)" (in press at Nature Protocols). 

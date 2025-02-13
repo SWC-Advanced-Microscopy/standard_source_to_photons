@@ -6,3 +6,10 @@ The explanations behind the figures can be found in the Jupyter notebook.
  
 ## Basic Example
 See [example_standard_target_calibration.md](example_standard_target_calibration.md) for a basic example on how to convert an image stack to photons. 
+
+## Calibrating the standard source
+The script [convert_standard_source.m](convert_standard_source.m) runs through all structured target images and process them all. 
+It uses the resulting coefficients to convert the standard source data to photons per pixel.
+You can see an example run nicely presented at [convert_standard_source.md](convert_standard_source.md).
+
+

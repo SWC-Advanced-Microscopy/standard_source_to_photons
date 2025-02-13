@@ -1,4 +1,4 @@
-# Demo showing how to calibrates one of the lens paper images and converts it to photons.
+# Demo: converting a lens paper image stack to photons
 
 ```matlab
 % path to the data. Download raw data from Gin and edit the following line
@@ -13,7 +13,7 @@ tiff_files = sss.get_tiff_files_for_chan(3);
 
 % Quickly read and plot some data from a medium gain
 % Read the data
-ii=8;
+ii=8; %just choose an image stack
 T = tiffreadVolume(tiff_files{ii});
 % Subtract the minimum value
 T = T - min(T(:));
