@@ -21,3 +21,7 @@ get_calib_data(channel=4,gain=695,count_weight_gamma=0.8)
 
 A plot is produced of the structured source fit.
 The photons/pixel calculated from the standard source is returned to the CLI. 
+
+
+### Getting the raw data
+If you wish to re-run the notebook or play with the data, the required TIFF files can be found on Gin at [raacampbell/NV_photon_calibration_250122](https://gin.g-node.org/raacampbell/NV_photon_calibration_250122/).
