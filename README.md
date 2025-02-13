@@ -5,7 +5,7 @@ For our purposes we will be using a multi-photon microscope, but this is not cri
 Conversion of the detected standard source signal into photons allows direct comparison of the collection paths of different microscopes. 
 
 ## TLWR
-* See [the main Jupyter notebook](./python/Get_Quantal_Vals.ipynb) for how to perform the calibration in details.
+* See [the main Jupyter notebook](./python/Get_Quantal_Vals.ipynb) for how to perform the calibration in detail.
 * See [matlab/README.md](matlab/README.md) for a demo that this also works in MATLAB.
 
 ## How does it work?
@@ -58,11 +58,7 @@ Thus, despite being acquired at 12 or 16 bit, the true bit depth is more like 4 
 In principle raw data can be converted to photons and, even if just stored as LZW compressed 8 bit tiffs, will yield a data saving of around 10x.
 
 
-# What is here
-Here you will find some Python code and notebooks that show how to convert data from a tritium source into photons. 
-You will also find a MATLAB implementation of this pipeline. 
-Many multi-photon microscopes run the MATLAB-based [ScanImage](https://www.mbfbioscience.com/products/scanimage/) software and it is helpful to be able to make the conversions at the rig within MATLAB without requring a Python install.
-You may look through the MATLAB and Python notebooks to examine the results. 
+# Where to get the data
 If you wish to re-run the notebooks or play with the data, the required TIFF files can be found on Gin at [raacampbell/NV_photon_calibration_250122](https://gin.g-node.org/raacampbell/NV_photon_calibration_250122/).
 
 ## Where to start
