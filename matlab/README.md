@@ -15,4 +15,4 @@ You can see an example presented at [convert_standard_source.md](convert_standar
 
 
 ### Getting the raw data
-If you wish to re-run the analyses or play with the data, the required TIFF files can be found on Gin at [raacampbell/NV_photon_calibration_250122](https://gin.g-node.org/raacampbell/NV_photon_calibration_250122/).
+If you wish to re-run the analyses or play with the data, the required TIFF files can be found on Gin at [SWC_AMF/NV_photon_calibration_250122](https://gin.g-node.org/SWC_AMF/NV_photon_calibration_250122/).

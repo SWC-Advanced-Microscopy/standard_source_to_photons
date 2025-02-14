@@ -59,7 +59,7 @@ In principle raw data can be converted to photons and, even if just stored as LZ
 
 
 # Where to get the data
-If you wish to re-run the notebooks or play with the data, the required TIFF files can be found on Gin at [raacampbell/NV_photon_calibration_250122](https://gin.g-node.org/raacampbell/NV_photon_calibration_250122/).
+If you wish to re-run the notebooks or play with the data, the required TIFF files can be found on Gin at [SWC_AMF/NV_photon_calibration_250122](https://gin.g-node.org/SWC_AMF/NV_photon_calibration_250122/).
 
 ## Where to start
 The Jupyter notebook `python/Get_Quantal_Vals.ipynb` contains a description of the data and explains the steps for converting the standard source image from raw values to photons. 
